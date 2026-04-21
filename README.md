@@ -1,84 +1,65 @@
-# Fitness Activity Data Analysis (Fitbit Dataset)
+# Fitness Data Analysis: Activity, Calories & Performance
+
+This project applies exploratory data analysis (EDA) techniques to fitness tracking data to explore patterns in physical activity, calorie expenditure, and performance.
+
+The objective is to identify relationships between movement, exercise intensity, and energy expenditure, and to translate these findings into practical insights that can support healthier and more data-informed fitness decisions.
+
+This project highlights the application of data analysis techniques to personal fitness tracking and demonstrates readiness for further study in Data Science and AI.
 
 ---
 
-## Overview
-This project analyses Fitbit activity data to explore the relationship between physical activity, calorie expenditure, and performance metrics.
+## Tools Used
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
 
 ---
 
-## Objective
-The objective of this project is to analyse fitness tracker data to understand the relationship between physical activity, calorie expenditure, and behavioural patterns. This project explores how data can be used to gain insights into performance and lifestyle habits.
+## Key Features
+- Data cleaning and preprocessing
+- Feature engineering (e.g., activity ratio and time-based features)
+- Exploratory data analysis (EDA)
+- Activity and calorie relationship analysis
+- Behavioural insights and recommendations
+- Limitations and future machine learning applications
 
 ---
 
-## Dataset
-- Source: Fitbit dataset (Kaggle)  
-- Includes:
-  - Daily steps
-  - Calories burned
-  - Activity intensity levels
-  - Time-based activity tracking  
+## Key Visualisations
 
----
+### Steps vs Calories Burned
+![Steps vs Calories](images/steps_vs_calories.png)
 
-## Key Questions
-- How does physical activity relate to calorie expenditure?
-- Do higher step counts always result in higher calorie burn?
-- What patterns exist in user activity behaviour?
+### Distribution of Very Active Minutes
+![Very Active Minutes Distribution](images/very_active_distribution.png)
 
----
+### Sedentary Minutes vs Calories Burned
+![Sedentary vs Calories](images/sedentary_vs_calories.png)
 
-## Tools & Technologies
-- Python
-- pandas (data manipulation)
-- matplotlib (data visualisation)
-
----
-
-## Methodology
-1. Data Cleaning  
-   - Removed missing and inconsistent data  
-   - Standardised date and activity formats  
-
-2. Exploratory Data Analysis (EDA)  
-   - Analysed relationships between steps and calories  
-   - Examined daily activity trends  
-   - Identified behavioural patterns  
-
-3. Data Visualisation  
-   - Created charts to highlight correlations and trends  
+### Very Active Minutes vs Calories Burned
+![Very Active vs Calories](images/very_active_vs_calories.png)
 
 ---
 
 ## Key Insights
-- Higher step counts generally correlate with increased calorie expenditure, but intensity of activity plays a significant role  
-- Users with consistent daily activity tend to show more stable performance metrics  
-- Behavioural patterns suggest that consistency may be more important than short bursts of high activity  
+- Higher step counts are generally associated with increased calorie expenditure  
+- High-intensity activity varies significantly across individuals (right-skewed distribution)  
+- Sedentary behaviour alone does not fully explain energy expenditure  
+- Fitness tracking data can reveal meaningful behavioural patterns  
 
 ---
 
-## Insights & Interpretation
-- Data can be used to personalise fitness recommendations  
-- Activity tracking enables behavioural insights that can improve long-term health outcomes  
-- Consistency in activity is a key driver of performance, not just intensity
+## Future Work
+- Activity behaviour clustering  
+- Performance trend prediction  
+- Personalised workout recommendations using machine learning  
 
 ---
 
-## Example Visual
-
-### Steps vs Calories
-![Steps vs Calories](steps_vs_calories.png)
-
-## Dataset
-Fitbit Fitness Tracker Data
+## Repository Structure
+- `fitness-data-analysis.ipynb` – full analysis notebook  
+- `images/` – visualisations used in the project  
 
 ---
 
-## Conclusion
-This project demonstrates how data analysis can be applied to real-world behavioural data. It highlights the value of data-driven insights in understanding performance, habits, and lifestyle patterns.
-
----
-
-## Links
-- Kaggle notebook: (https://www.kaggle.com/code/siripiruntans/fitness-data-analysis-project)
+## Author
+Siripirun (Tan) Saritasurarak
